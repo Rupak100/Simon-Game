@@ -42,7 +42,7 @@ function checkAnswer(currentLevel) {
           console.log("wrong");
 
         //   playing the worong sound :
-          makeSound("Wrong");
+          makeSound("wrong");
         $("body").addClass("game-over");
         setTimeout(function () {
             $("body").removeClass('game-over');
